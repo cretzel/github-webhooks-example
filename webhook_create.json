@@ -1,0 +1,14 @@
+{
+  "name": "web",
+  "active": true,
+  "events": [
+    "push",
+    "pull_request"
+  ],
+  "config": {
+    "url": "https://postb.in/1581493698910-3715858794748",
+    "content_type": "json",
+    "insecure_ssl": "0",
+    "secret": "asdf-asdf-asdf-asdf-asdf-asdf"
+  }
+}
