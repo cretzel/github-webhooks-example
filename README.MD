@@ -5,7 +5,7 @@
 Export token
 ```
 export TOKEN="asdf-asdf-asdf-asdf"
-``
+```
 
 ## Create postbin
 
