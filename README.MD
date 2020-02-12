@@ -58,7 +58,30 @@ Commit to repository
 ```
 curl https://postb.in/api/bin/$BIN_ID/req/shift | jq
 
-b-webhooks-example",
+{
+  "method": "POST",
+  "path": "/1581493698910-3715858794748",
+  "headers": {
+    "x-real-ip": "140.82.115.244",
+    "host": "postb.in",
+    "connection": "close",
+    "content-length": "7687",
+    "accept": "*/*",
+    "user-agent": "GitHub-Hookshot/03ed870",
+    "x-github-event": "push",
+    "x-github-delivery": "f4910286-4d6c-11ea-9887-6fc2e18958ba",
+    "content-type": "application/json",
+    "x-hub-signature": "sha1=d83dabc26a63465bdf5377e9ad6f8cf7283b00d3"
+  },
+  "query": {},
+  "body": {
+    "ref": "refs/heads/master",
+    "before": "0000000000000000000000000000000000000000",
+    "after": "600bd9429d118b20a4f508a4006374e135c32537",
+    "repository": {
+      "id": 239954212,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMzk5NTQyMTI=",
+      "name": "github-webhooks-example",
       "full_name": "cretzel/github-webhooks-example",
       "private": false,
       "owner": {
